@@ -1,0 +1,7 @@
+[
+  {
+    "name": "scala.concurrent.Future$InternalCallbackExecutor$",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true
+  }
+]

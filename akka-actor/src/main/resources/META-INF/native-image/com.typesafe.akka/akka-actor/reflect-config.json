@@ -236,11 +236,6 @@
     "allPublicConstructors": true
   },
   {
-    "name": "scala.concurrent.Future$InternalCallbackExecutor$",
-    "allDeclaredConstructors": true,
-    "allPublicConstructors": true
-  },
-  {
     "name": "sun.reflect.Reflection",
     "allDeclaredConstructors": true,
     "allPublicConstructors": true

@@ -11,7 +11,8 @@ graal-akka-actor
 ----------------
 This artifact provides [reflection](https://github.com/oracle/graal/blob/master/substratevm/REFLECTION.md)
 configuration for `akka-actor` (based on [previous work by jrudolph](https://github.com/jrudolph/akka-graal))
-module and also a substitution to make Akka's default scheduler work with `native-image`.
+module and also substitutions to make Akka's default scheduler and Scala 2.13's
+`Statics.releaseFence` work with `native-image`.
 
     "com.github.vmencik" %% "graal-akka-actor" % graalAkkaVersion
     
@@ -34,11 +35,14 @@ for `native-image` and also configuration for Akka itself that makes things easi
 
 Compatibility
 -------------
-Current version of the artifacts was tested with akka-actor 2.5.25, akka-http 10.1.8, GraalVM 19.0.2
-and Scala 2.12.8.
+Current version of the artifacts was tested with:
+
+  * akka-actor 2.5.25
+  * akka-http 10.1.8
+  * GraalVM 19.0.2
+  * Scala 2.12.8 and 2.13.0
 
 The reflection configuration and the substitution are tightly coupled with Akka internals and will
 likely to be updated for future versions.
 
-There are currently no artifacts for Scala 2.13.x because it too will require different configuration
-than Scala 2.12.x.
+The artifacts are cross-published for Scala 2.13 and Scala 2.12.
