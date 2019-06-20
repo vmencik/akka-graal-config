@@ -1,0 +1,7 @@
+[
+  {
+    "name": "com.typesafe.sslconfig.ssl.DefaultHostnameVerifier",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true
+  }
+]
