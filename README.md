@@ -29,7 +29,7 @@ Note that the configuration provided by these artifacts is not everything you wi
 your Akka project with `native-image`.
 
 See the [akka-graal-native](https://github.com/vmencik/akka-graal-native) repository for an example
-of Akka HTTP service compiled into native binary. There you can the rest of the configuration
+of Akka HTTP service compiled into native binary. There you can see the rest of the configuration
 for `native-image` and also configuration for Akka itself that makes things easier.
 
 Compatibility
