@@ -34,7 +34,7 @@ for `native-image` and also configuration for Akka itself that makes things easi
 
 Compatibility
 -------------
-Current version of the artifacts was tested with akka-actor 2.5.25, akka-http 10.1.8, GraalVM 19.0.2
+Current version of the artifacts was tested with akka-actor 2.5.23, akka-http 10.1.8, GraalVM 19.0.2
 and Scala 2.12.8.
 
 The reflection configuration and the substitution are tightly coupled with Akka internals and will
