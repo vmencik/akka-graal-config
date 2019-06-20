@@ -42,7 +42,7 @@ Current version of the artifacts was tested with:
   * GraalVM 19.0.2
   * Scala 2.12.8 and 2.13.0
 
-The reflection configuration and the substitution are tightly coupled with Akka internals and will
-likely to be updated for future versions.
+The reflection configuration and the substitutions are tightly coupled with Akka internals and will
+likely need to be updated for future versions.
 
 The artifacts are cross-published for Scala 2.13 and Scala 2.12.
