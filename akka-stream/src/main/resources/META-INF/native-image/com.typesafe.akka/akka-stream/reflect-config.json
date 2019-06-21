@@ -3,5 +3,19 @@
     "name": "com.typesafe.sslconfig.ssl.DefaultHostnameVerifier",
     "allDeclaredConstructors": true,
     "allPublicConstructors": true
+  },
+  {
+    "name": "akka.stream.impl.io.FileSubscriber",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true
+  },
+  {
+    "name": "akka.stream.impl.fusing.ActorGraphInterpreter",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "fields" : [
+      { "name" : "context", "allowWrite" : true },
+      { "name" : "self", "allowWrite" : true }
+    ]
   }
 ]
