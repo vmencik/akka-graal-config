@@ -24,7 +24,20 @@ lazy val actor = (project in file("akka-actor"))
     )
   )
 
+lazy val slf4j = (project in file("akka-slf4j"))
+  .dependsOn(actor)
+  .settings(
+    name := "graal-akka-slf4j"
+  )
+
+lazy val stream = (project in file("akka-stream"))
+  .dependsOn(actor)
+  .settings(
+    name := "graal-akka-stream"
+  )
+
 lazy val http = (project in file("akka-http"))
+  .dependsOn(stream)
   .settings(
     name := "graal-akka-http",
     crossScalaVersions := supportedScalaVersions,

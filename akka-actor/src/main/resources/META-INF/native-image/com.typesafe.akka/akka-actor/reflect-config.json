@@ -211,11 +211,6 @@
     "allPublicConstructors": true
   },
   {
-    "name": "com.typesafe.sslconfig.ssl.DefaultHostnameVerifier",
-    "allDeclaredConstructors": true,
-    "allPublicConstructors": true
-  },
-  {
     "name": "java.lang.String",
     "allDeclaredConstructors": true,
     "allPublicConstructors": true
@@ -237,16 +232,6 @@
   },
   {
     "name": "sun.reflect.Reflection",
-    "allDeclaredConstructors": true,
-    "allPublicConstructors": true
-  },
-  {
-    "name": "akka.event.slf4j.Slf4jLoggingFilter",
-    "allDeclaredConstructors": true,
-    "allPublicConstructors": true
-  },
-  {
-    "name": "akka.event.slf4j.Slf4jLogger",
     "allDeclaredConstructors": true,
     "allPublicConstructors": true
   },
