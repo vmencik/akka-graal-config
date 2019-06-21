@@ -248,5 +248,30 @@
       { "name" : "context", "allowWrite" : true },
       { "name" : "self", "allowWrite" : true }
     ]
+  },
+  {
+    "name": "akka.serialization.SerializationExtension",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "akka.serialization.SerializationExtension$",
+    "fields":[{"name":"MODULE$"}]
+  },
+    {
+    "name":"akka.serialization.ByteArraySerializer",
+    "methods":[{ "name":"<init>", "parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+  },
+  {
+    "name":"akka.serialization.JavaSerializer",
+    "methods":[{ "name":"<init>", "parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+  },
+  {
+    "name":"[B"
+  },
+  {
+    "name":"java.io.Serializable"
   }
 ]
