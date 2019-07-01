@@ -1,12 +1,20 @@
 name := "akka-graal-config"
 
-ThisBuild / organization := "com.github.vmencik"
+inThisBuild(List(
+  organization := "com.github.vmencik",
+  version := "0.4.0",
+  scalaVersion := "2.13.0",
+  autoScalaLibrary := false,
 
-ThisBuild / version := "0.3.2"
+  licenses := Seq("Apache-2.0" -> url("https://opensource.org/licenses/Apache-2.0")),
+  homepage := Some(url("https://github.com/vmencik/akka-graal-config")),
+  developers := List(Developer("vmencik", "Vlastimil Mencik", "v_mencik@hotmail.com", url("https://github.com/vmencik"))),
+  scmInfo := Some(ScmInfo(url("https://github.com/vmencik/akka-graal-config"), "scm:git:git@github.com:vmencik/akka-graal-config.git")),
 
-ThisBuild / scalaVersion := "2.13.0"
-
-ThisBuild / autoScalaLibrary := false
+  pgpPublicRing := file("./travis/local.pubring.asc"),
+  pgpSecretRing := file("./travis/local.secring.asc"),
+  releaseEarlyWith := SonatypePublisher
+))
 
 lazy val scala212 = "2.12.8"
 lazy val scala213 = "2.13.0"
