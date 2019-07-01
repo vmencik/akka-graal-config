@@ -2,7 +2,6 @@ name := "akka-graal-config"
 
 inThisBuild(List(
   organization := "com.github.vmencik",
-  version := "0.4.0",
   scalaVersion := "2.13.0",
   autoScalaLibrary := false,
 
