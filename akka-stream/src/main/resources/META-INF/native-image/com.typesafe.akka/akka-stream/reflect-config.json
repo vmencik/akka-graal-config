@@ -17,5 +17,18 @@
       { "name" : "context", "allowWrite" : true },
       { "name" : "self", "allowWrite" : true }
     ]
+  },
+  {
+    "name": "akka.stream.serialization.StreamRefSerializer",
+    "methods":[{ "name":"<init>", "parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+  },
+  {
+    "name": "akka.stream.SinkRef"
+  },
+  {
+    "name": "akka.stream.SourceRef"
+  },
+  {
+    "name": "akka.stream.impl.streamref.StreamRefsProtocol"
   }
 ]

@@ -264,7 +264,7 @@
     "name": "akka.serialization.SerializationExtension$",
     "fields":[{"name":"MODULE$"}]
   },
-    {
+  {
     "name":"akka.serialization.ByteArraySerializer",
     "methods":[{ "name":"<init>", "parameterTypes":["akka.actor.ExtendedActorSystem"] }]
   },
