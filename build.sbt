@@ -2,7 +2,8 @@ name := "akka-graal-config"
 
 inThisBuild(List(
   organization := "com.github.vmencik",
-  scalaVersion := "2.13.0",
+  scalaVersion := scala213,
+  crossScalaVersions := supportedScalaVersions,
   autoScalaLibrary := false,
 
   licenses := Seq("Apache-2.0" -> url("https://opensource.org/licenses/Apache-2.0")),
@@ -22,7 +23,6 @@ lazy val supportedScalaVersions = List(scala213, scala212)
 lazy val actor = (project in file("akka-actor"))
   .settings(
     name := "graal-akka-actor",
-    crossScalaVersions := supportedScalaVersions,
     unmanagedResourceDirectories in Compile += sourceDirectory.value / "main" / s"resources-${scalaBinaryVersion.value}",
     libraryDependencies ++= Seq(
       // required for substitutions

@@ -16,13 +16,26 @@ module and also substitutions to make Akka's default scheduler and Scala 2.13's
 
     "com.github.vmencik" %% "graal-akka-actor" % graalAkkaVersion
     
+graal-akka-stream
+----------------
+This artifact provides [reflection](https://github.com/oracle/graal/blob/master/substratevm/REFLECTION.md)
+configuration for `akka-stream` module.
+
+    "com.github.vmencik" %% "graal-akka-stream" % graalAkkaVersion
+
 graal-akka-http
 ---------------
 This artifact provides [reflection](https://github.com/oracle/graal/blob/master/substratevm/REFLECTION.md)
-configuration for `akka-http` (including the required parts of `akka-stream`) and also enables support
-for http and https [protocols](https://github.com/oracle/graal/blob/master/substratevm/URL-PROTOCOLS.md).
+configuration for `akka-http` and also enables support for http and https [protocols](https://github.com/oracle/graal/blob/master/substratevm/URL-PROTOCOLS.md).
 
     "com.github.vmencik" %% "graal-akka-http" % graalAkkaVersion
+
+graal-akka-stream
+----------------
+This artifact provides [reflection](https://github.com/oracle/graal/blob/master/substratevm/REFLECTION.md)
+configuration for `akka-slf4j` module.
+
+    "com.github.vmencik" %% "graal-akka-slf4j" % graalAkkaVersion
 
 Usage
 -----    
