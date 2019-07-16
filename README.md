@@ -37,6 +37,15 @@ configuration for `akka-slf4j` module.
 
     "com.github.vmencik" %% "graal-akka-slf4j" % graalAkkaVersion
 
+graal-akka-remote
+-----------------
+
+To use Akka Remote with Graal:
+
+* configure the Artery TCP implementation
+* exclude Netty and Aeron from your dependency tree
+* pass the `--allow-incomplete-classpath` parameter to `native-image`
+
 Usage
 -----    
 Note that the configuration provided by these artifacts is not everything you will need to build
