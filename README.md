@@ -59,9 +59,9 @@ Compatibility
 -------------
 Current version of the artifacts was tested with:
 
-  * akka-actor 2.5.23
+  * akka-actor 2.5.24
   * akka-http 10.1.8
-  * GraalVM 19.0.2
+  * GraalVM 19.1.1
   * Scala 2.12.8 and 2.13.0
 
 The reflection configuration and the substitutions are tightly coupled with Akka internals and will

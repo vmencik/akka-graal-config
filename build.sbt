@@ -27,7 +27,7 @@ lazy val actor = (project in file("akka-actor"))
     libraryDependencies ++= Seq(
       // required for substitutions
       // make sure the version matches GraalVM version used to run native-image
-      "com.oracle.substratevm" % "svm" % "19.0.2" % Provided
+      "com.oracle.substratevm" % "svm" % "19.1.1" % Provided
     )
   )
 
