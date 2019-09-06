@@ -1,6 +1,6 @@
 [
   {
-    "name": "com.typesafe.sslconfig.ssl.NoopHostnameVerifier",
+    "name": "com.typesafe.sslconfig.ssl.DefaultHostnameVerifier",
     "allDeclaredConstructors": true,
     "allPublicConstructors": true
   }
