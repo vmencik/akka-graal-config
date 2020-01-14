@@ -30,7 +30,7 @@ configuration for `akka-http` and also enables support for http and https [proto
 
     "com.github.vmencik" %% "graal-akka-http" % graalAkkaVersion
 
-graal-akka-stream
+graal-akka-slf4j
 ----------------
 This artifact provides [reflection](https://github.com/oracle/graal/blob/master/substratevm/REFLECTION.md)
 configuration for `akka-slf4j` module.
